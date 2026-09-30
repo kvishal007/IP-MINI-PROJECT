@@ -7,7 +7,7 @@ alerts.
 
 | | |
 |---|---|
-| **Student** | Pavithran |
+| **Student** | PAVITHRAN,VISHAL,BALAYOGHI|
 | **Class** | III Year B.Tech — Artificial Intelligence and Data Science |
 | **Register Number** | 21UAD___ |
 | **College** | Kamaraj College of Engineering and Technology<br>(An Autonomous Institution — Affiliated to Anna University, Chennai)<br>K. Vellakulam, Virudhunagar - 625 701 |
