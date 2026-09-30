@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  File    : assets/img/logo.svg
+  Purpose : FitTrack application logo — a lightning bolt (energy/fitness)
+            over a rising bar chart (the analyzer), in the app's navy +
+            orange theme. logo.png is the same mark rasterised at 512px.
+  Author  : Pavithran
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512"
+     role="img" aria-label="FitTrack logo">
+  <defs>
+    <linearGradient id="ftNavy" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#243354"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded navy tile -->
+  <rect x="0" y="0" width="512" height="512" rx="112" fill="url(#ftNavy)"/>
+
+  <!-- Rising bars: the "analyzer" half of the mark -->
+  <rect x="104" y="318" width="52" height="92"  rx="16" fill="#2d3e62"/>
+  <rect x="176" y="268" width="52" height="142" rx="16" fill="#2d3e62"/>
+  <rect x="284" y="218" width="52" height="192" rx="16" fill="#ea580c"/>
+  <rect x="356" y="162" width="52" height="248" rx="16" fill="#fb923c"/>
+
+  <!-- Baseline -->
+  <rect x="92" y="422" width="328" height="14" rx="7" fill="#2d3e62"/>
+
+  <!-- Lightning bolt: the "fit / energy" half.
+       Drawn with a thick navy stroke so it stays readable where it
+       crosses the orange bars. -->
+  <path d="M292 74 L150 286 H238 L206 446 L352 232 H262 Z"
+        fill="#fb923c"
+        stroke="#0f172a"
+        stroke-width="26"
+        stroke-linejoin="round"
+        paint-order="stroke"/>
+</svg>

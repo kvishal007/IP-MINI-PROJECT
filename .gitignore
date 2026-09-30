@@ -1,0 +1,13 @@
+# Local test / build artifacts — not part of the submission
+_test_mysql_data/
+_screens/
+_php_server.log
+_cookies.txt
+*.log
+
+# Editor / OS noise
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
